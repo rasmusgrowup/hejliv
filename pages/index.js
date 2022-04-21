@@ -27,15 +27,15 @@ export default function Home() {
     <>
       <section className={scss.section} data='between'>
         <div className={scss.case} id={scss.one}>
-          <Image src={One} quality='100' style={{ backgroundColor: 'var(--fill)' }}/>
+          <Image src={One} quality='100' priority='true' style={{ backgroundColor: 'var(--fill)' }}/>
           <h2 className={scss.titel}>koncept — fotounivers</h2>
         </div>
         <div className={scss.case} id={scss.two}>
-          <Image src={Two} quality='100' style={{ backgroundColor: 'var(--fill)' }}/>
+          <Image src={Two} quality='100' priority='true' style={{ backgroundColor: 'var(--fill)' }}/>
           <h2 className={scss.titel}>GLS — Projektstyring & Styling</h2>
         </div>
         <div className={scss.case} id={scss.three}>
-          <Image src={Three} quality='100' style={{ backgroundColor: 'var(--fill)' }}/>
+          <Image src={Three} quality='100' priority='true' style={{ backgroundColor: 'var(--fill)' }}/>
           <h2 className={scss.titel}>Albani — Styling & Instruering</h2>
         </div>
       </section>
