@@ -39,7 +39,7 @@ export default function Navbar() {
           <div className={scss.link} onClick={closeMenu}>Opgaver</div>
           <div className={scss.link} onClick={toggleMenu}>Min Info</div>
           <div className={scss.link}>
-            <Link href='https://instagram.com/hej__liv'><a target='_blank'>Instagram</a></Link>
+            <Link href='https://instagram.com/hej__liv'><a target='_blank'>Insta</a></Link>
           </div>
         </div>
       </nav>
