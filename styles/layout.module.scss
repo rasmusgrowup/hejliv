@@ -1,0 +1,157 @@
+@import 'core.scss';
+
+.section {
+  display: block;
+}
+
+@media (min-width: $m) {
+  .section {
+    display: flex;
+    height: 50vw;
+    margin: 10vw auto;
+
+    &:first-of-type {
+      margin-top: 6vw;
+    }
+
+    &:last-of-type {
+      margin-bottom: 3vw;
+    }
+  }
+
+  .section[data='tall'] {
+    height: 54vw;
+    justify-content: space-around;
+  }
+
+  .section[data='between'] {
+    justify-content: space-between;
+  }
+
+  .section[data='evenly'] {
+    justify-content: space-evenly;
+  }
+
+  .section[data='around'] {
+    justify-content: space-around;
+  }
+
+  #one {
+    flex: 1;
+    max-width: 28vw;
+  }
+
+  #two {
+    flex: 1;
+    align-self: flex-end;
+    max-width: 36vw;
+  }
+
+  #three {
+    flex: 1;
+    align-self: center;
+    max-width: 18vw;
+  }
+
+  #four {
+    flex: 1;
+    align-self: flex-end;
+    max-width: 44vw;
+  }
+
+  #five {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 32vw;
+  }
+
+  #six {
+    align-self: flex-end;
+    flex: 1;
+    max-width: 28vw;
+  }
+
+  #seven {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 32vw;
+  }
+
+  #eight {
+    align-self: flex-end;
+    flex: 1;
+    max-width: 24vw;
+  }
+
+  #nine {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 40vw;
+  }
+
+  #ten {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 34vw;
+  }
+
+  #eleven {
+    align-self: flex-end;
+    flex: 1;
+    max-width: 44vw;
+  }
+
+  #twelve {
+    align-self: flex-end;
+    flex: 1;
+    max-width: 52vw;
+  }
+
+  #thirteen {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 20vw;
+  }
+
+  #fourteen {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 31vw;
+  }
+
+  #fifteen {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 15vw;
+  }
+
+  #sixteen {
+    align-self: center;
+    flex: 1;
+    max-width: 15vw;
+  }
+}
+
+.case {
+  display: block;
+  margin-bottom: 4rem;
+  position: relative;
+
+  @media (min-width: $m) {
+    margin-bottom: 0;
+  }
+
+  .titel {
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+
+    @media (min-width: $m) {
+      opacity: 0;
+    }
+  }
+
+  &:hover .titel {
+    opacity: 1;
+  }
+}
