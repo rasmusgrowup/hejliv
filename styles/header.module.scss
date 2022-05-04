@@ -1,9 +1,23 @@
 @import 'core.scss';
 
 .main {
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-align: center;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 1;
+
+  @media (max-width: $m) {
+    margin-top: 1.5rem;
+  }
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 15rem;
+
+  @media (max-width: $m) {
+    width: 12rem;
+  }
 }

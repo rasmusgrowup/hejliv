@@ -10,7 +10,9 @@ export default function Header() {
     <>
       <header className={scss.main}>
         <Link href='/'>
-          <a><Image src={Logo} priority='true' quality='100'/></a>
+          <a className={scss.logo}>
+            <Image src={Logo} priority='true' quality='100' layout='responsive'/>
+          </a>
         </Link>
       </header>
     </>

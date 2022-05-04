@@ -7,11 +7,11 @@
 @media (min-width: $m) {
   .section {
     display: flex;
-    height: 50vw;
+    height: 40vw;
     margin: 10vw auto;
 
     &:first-of-type {
-      margin-top: 6vw;
+      margin-top: 8vw;
     }
 
     &:last-of-type {
@@ -134,7 +134,7 @@
 
 .case {
   display: block;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   position: relative;
 
   @media (min-width: $m) {
@@ -142,6 +142,7 @@
   }
 
   .titel {
+    display: none;
     font-size: 1em;
     font-weight: normal;
     text-transform: uppercase;
@@ -152,6 +153,6 @@
   }
 
   &:hover .titel {
-    opacity: 1;
+    opacity: 0;
   }
 }

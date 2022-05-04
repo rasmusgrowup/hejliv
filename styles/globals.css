@@ -23,7 +23,7 @@ body {
 
 .main {
   min-height: 100vh;
-  padding: 8rem 1rem 4rem;
+  padding: 8rem 0 4rem;
   position: relative;
   z-index: 2;
 }
@@ -45,10 +45,12 @@ a {
 
 :root {
   --main: #0045ff;
-  --main: #003BFF;
+  --main: #0C6096;
   --fill: #FF4E00;
   --fill: #000;
+  --pink: #F9DCE3;
   --white: #fff;
+  --black: #000;
   --in: cubic-bezier(0.22, 1, 0.36, 1);
   --inOut: cubic-bezier(0.83, 0, 0.17, 1);
 }

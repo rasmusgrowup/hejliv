@@ -1,7 +1,7 @@
 @import 'core.scss';
 
 .drawer {
-  background-color: var(--main);
+  background-color: var(--pink);
   display: flex;
   flex-direction: column;
   height: calc(100% - 74px);
@@ -20,7 +20,7 @@
 }
 
 .menu {
-  color: var(--white);
+  color: var(--black);
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -97,9 +97,9 @@
 
 .bottomBar {
   align-items: center;
-  background-color: var(--main);
+  background-color: var(--pink);
   bottom: 0;
-  color: var(--white);
+  color: var(--black);
   display: flex;
   font-weight: 600;
   height: 75px;
@@ -134,4 +134,11 @@
 
 .link {
   cursor: pointer;
+  font-size: 2.2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  @media (max-width: $m) {
+    font-size: 1.5em;
+  }
 }

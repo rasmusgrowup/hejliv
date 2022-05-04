@@ -5,9 +5,9 @@ import Image from "next/image"
 import scss from '../styles/layout.module.scss'
 
 //Images
-import One from '../public/BH_1.jpg'
-import Two from '../public/GLS_2.jpg'
-import Three from '../public/Untitled-Session11276.jpg'
+import One from '../public/BH_4.jpg'
+import Two from '../public/BH_2.jpg'
+import Three from '../public/BH_6.jpg'
 import Four from '../public/Billede26.jpg'
 import Five from '../public/GLS_1.jpg'
 import Six from '../public/BH_2.jpg'
