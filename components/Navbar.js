@@ -36,9 +36,9 @@ export default function Navbar() {
           </div>
         </div>
         <div className={scss.bottomBar}>
-          <div className={scss.link} onClick={closeMenu}>Bio</div>
-          <div className={scss.link} onClick={toggleMenu}>Kontakt</div>
-          <div className={scss.link}>
+          <div className={scss.link} onClick={closeMenu} style={{ textAlign: 'left'}}>Bio</div>
+          <div className={scss.link} onClick={toggleMenu} style={{ textAlign: 'center'}}>Kontakt</div>
+          <div className={scss.link} style={{ textAlign: 'right'}}>
             <Link href='https://instagram.com/hej__liv'><a target='_blank'>Insta</a></Link>
           </div>
         </div>

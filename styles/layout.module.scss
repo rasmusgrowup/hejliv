@@ -7,21 +7,32 @@
 @media (min-width: $m) {
   .section {
     display: flex;
-    height: 40vw;
-    margin: 10vw auto;
+    height: 44vw;
+    margin: 12vw auto;
 
     &:first-of-type {
-      margin-top: 8vw;
+      margin-bottom: -7vw;
+      margin-top: 6vw;
     }
 
     &:last-of-type {
-      margin-bottom: 3vw;
+      margin-bottom: 4vw;
     }
   }
 
   .section[data='tall'] {
-    height: 54vw;
+    height: 56vw;
+    justify-content: space-between;
+  }
+
+  .section[data='tallAround'] {
+    height: 56vw;
     justify-content: space-around;
+  }
+
+  .section[data='tallEvenly'] {
+    height: 56vw;
+    justify-content: space-evenly;
   }
 
   .section[data='between'] {
@@ -38,97 +49,152 @@
 
   #one {
     flex: 1;
-    max-width: 28vw;
+    max-width: 22.5vw;
   }
 
   #two {
     flex: 1;
     align-self: flex-end;
-    max-width: 36vw;
+    margin-right: 4rem;
+    max-width: 30vw;
   }
 
   #three {
     flex: 1;
     align-self: center;
-    max-width: 18vw;
+    max-width: 20vw;
   }
 
   #four {
     flex: 1;
-    align-self: flex-end;
-    max-width: 44vw;
+    align-self: center;
+    max-width: 20vw;
   }
 
   #five {
-    align-self: flex-start;
+    align-self: flex-end;
     flex: 1;
-    max-width: 32vw;
+    margin-right: 4rem;
+    max-width: 27.5vw;
   }
 
   #six {
-    align-self: flex-end;
+    align-self: flex-start;
     flex: 1;
-    max-width: 28vw;
+    max-width: 30vw;
   }
 
   #seven {
-    align-self: flex-start;
+    align-self: flex-end;
     flex: 1;
-    max-width: 32vw;
+    max-width: 20vw;
   }
 
   #eight {
     align-self: flex-end;
     flex: 1;
-    max-width: 24vw;
+    max-width: 45vw;
   }
 
   #nine {
     align-self: flex-start;
     flex: 1;
-    max-width: 40vw;
+    max-width: 22.5vw;
   }
 
   #ten {
-    align-self: flex-start;
+    align-self: center;
     flex: 1;
-    max-width: 34vw;
+    margin-right: 6rem;
+    max-width: 17.5vw;
   }
 
   #eleven {
-    align-self: flex-end;
+    align-self: center;
     flex: 1;
-    max-width: 44vw;
+    max-width: 32.5vw;
   }
 
   #twelve {
-    align-self: flex-end;
+    align-self: flex-start;
     flex: 1;
-    max-width: 52vw;
+    max-width: 25vw;
   }
 
   #thirteen {
     align-self: flex-start;
     flex: 1;
-    max-width: 20vw;
+    margin-left: -4rem;
+    margin-right: 4rem;
+    max-width: 15vw;
   }
 
   #fourteen {
-    align-self: flex-start;
+    align-self: flex-end;
     flex: 1;
-    max-width: 31vw;
+    max-width: 32.5vw;
   }
 
   #fifteen {
     align-self: flex-start;
     flex: 1;
-    max-width: 15vw;
+    max-width: 27.5vw;
   }
 
   #sixteen {
     align-self: center;
     flex: 1;
-    max-width: 15vw;
+    margin-left: 4rem;
+    max-width: 20vw;
+  }
+
+  #seventeen {
+    align-self: flex-end;
+    flex: 1;
+    max-width: 27.5vw;
+  }
+
+  #eighteen {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 25vw;
+  }
+
+  #nineteen {
+    align-self: center;
+    flex: 1;
+    max-width: 25vw;
+  }
+
+  #twenty {
+    align-self: flex-end;
+    flex: 1;
+    max-width: 25vw;
+  }
+
+  #twentyone {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 27.5vw;
+  }
+
+  #twentytwo {
+    align-self: flex-end;
+    flex: 1;
+    margin-left: 4rem;
+    max-width: 27.5vw;
+  }
+
+  #twentythree {
+    align-self: center;
+    flex: 1;
+    max-width: 20vw;
+  }
+
+  #twentyfour {
+    align-self: center;
+    flex: 1;
+    max-width: 60vw;
   }
 }
 
