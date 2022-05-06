@@ -28,15 +28,15 @@ import Fifteen from '../public/Linolie_1.jpg'
 import Sixteen from '../public/Linolie_4.jpg'
 import Seventeen from '../public/Linolie_2.jpg'
 
-import Eighteen from '../public/Norden_2.jpg'
-import Nineteen from '../public/Norden_3.jpg'
-import Twenty from '../public/Norden_4.jpg'
+import Eighteen from '../public/NORDEN_2.jpg'
+import Nineteen from '../public/NORDEN_3.jpg'
+import Twenty from '../public/NORDEN_4.jpg'
 
-import Twentyone from '../public/Norden_5.jpg'
-import Twentytwo from '../public/Norden_6.jpg'
-import Twentythree from '../public/Norden_7.jpg'
+import Twentyone from '../public/NORDEN_5.jpg'
+import Twentytwo from '../public/NORDEN_6.jpg'
+import Twentythree from '../public/NORDEN_7.jpg'
 
-import Twentyfour from '../public/Norden_1.jpg'
+import Twentyfour from '../public/NORDEN_1.jpg'
 
 export default function Home() {
   return (
