@@ -35,6 +35,11 @@
     justify-content: space-evenly;
   }
 
+  .section[data='tallBetween'] {
+    height: 56vw;
+    justify-content: space-between;
+  }
+
   .section[data='between'] {
     justify-content: space-between;
   }
@@ -157,36 +162,36 @@
   #eighteen {
     align-self: flex-start;
     flex: 1;
-    max-width: 25vw;
+    max-width: 17.5vw;
   }
 
   #nineteen {
     align-self: center;
     flex: 1;
-    max-width: 25vw;
+    max-width: 30vw;
   }
 
   #twenty {
     align-self: flex-end;
     flex: 1;
-    max-width: 25vw;
+    max-width: 20vw;
   }
 
   #twentyone {
-    align-self: flex-start;
+    align-self: flex-end;
     flex: 1;
-    max-width: 27.5vw;
+    max-width: 22.5vw;
   }
 
   #twentytwo {
-    align-self: flex-end;
+    align-self: flex-start;
     flex: 1;
     margin-left: 4rem;
-    max-width: 27.5vw;
+    max-width: 35vw;
   }
 
   #twentythree {
-    align-self: center;
+    align-self: flex-end;
     flex: 1;
     max-width: 20vw;
   }
@@ -221,4 +226,14 @@
   &:hover .titel {
     opacity: 0;
   }
+}
+
+@media (max-width: $m) {
+  .introTekst {
+    padding-left: 1rem;
+  }
+}
+
+.link:hover {
+  color: var(--black);
 }

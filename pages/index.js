@@ -1,5 +1,6 @@
 //Components
 import Image from "next/image"
+import Link from "next/link"
 
 //Assets
 import scss from '../styles/layout.module.scss'
@@ -45,6 +46,12 @@ export default function Home() {
         <div className={scss.case} id={scss.one}>
           <Image src={One} quality='100' priority='true' style={{ backgroundColor: 'var(--fill)' }}/>
           <h2 className={scss.titel}>koncept — fotounivers</h2>
+          <p className={scss.introTekst}>
+            LIV CRAMER HOLME<br />
+            Stylist · Set Designer · Art Director<br />
+            <Link href='mailto:liv@cramerholme.dk'><a className={scss.link}>liv@cramerholme.dk</a></Link><br />
+            <Link href='tel:+4540558860'><a className={scss.link}>+45 40 55 88 60</a></Link>
+          </p>
         </div>
         <div className={scss.case} id={scss.two}>
           <Image src={Two} quality='100' priority='true' style={{ backgroundColor: 'var(--fill)' }}/>
@@ -127,7 +134,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={scss.section} data='tallEvenly'>
+      <section className={scss.section} data='tallBetween'>
         <div className={scss.case} id={scss.eighteen}>
           <Image src={Eighteen} quality='100' style={{ backgroundColor: 'var(--fill)' }}/>
           <h2 className={scss.titel}>GLS — Projektstyring & Styling</h2>

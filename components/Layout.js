@@ -5,8 +5,8 @@ export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <main className='main'>{children}</main>
       <Navbar />
+      <main className='main'>{children}</main>
     </>
   )
 }

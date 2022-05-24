@@ -49,10 +49,15 @@ export default function Navbar() {
         </div>
         <div className={`${scss.bioDrawer} ${ openBio == true ? `${scss.opened}` : `${scss.closed}`}`}>
           <div className={scss.menu}>
-            <h3>Jeg har 20 års erfaring fra kommunikations- og reklameverdenen. Jeg har især arbejdet meget med store retailere, hvor jeg har løst alt fra store kampagner og årsoplæg til mindre grafiske opgaver.<br/><br/>
-            Jeg er vant til at arrangere større og mindre fotoshoots/filmoptagelser med mennesker og med produkter. Jeg kan styre slagets gang både i planlægningen og i udførelsen af og ved hvad der skal til for at komme frem til et vellykket resultat.<br/><br/>
-            Jeg elsker at udvikle og skabe nye universer til mine kunder. Det kan være forslag til ny billede stil, konceptudvikling, kampagneudvikling eller styling af div. produkter/stilleben. Både dem med pincet og dem med store baggrunde og møbler.<br/><br/>
-            Jeg er altid åben for en snak omkring den bedste og mest kreative måde at løse en problemstilling på.
+            <h3>
+            Jeg elsker at udvikle og skabe nye universer til mine kunder. Og laver meget gerne oplæg til ny billede stil, konceptudvikling, kampagneudvikling eller styling af div. produkter/stilleben. Både dem med pincet og dem med store baggrunde og møbler. Jeg er altid åben for en snak omkring den bedste og mest kreative måde at løse en problemstilling på.<br/><br/>
+
+            Min baggrund er 20 års erfaring fra kommunikations- og reklameverdenen som Art Director.
+            Jeg har især arbejdet meget med store retailere, hvor jeg har løst alt fra store kampagner og årsoplæg til mindre grafiske opgaver.<br/><br/>
+
+            Jeg er vant til at arrangere større og mindre fotoshoots/filmoptagelser og jeg kan styre slagets gang både i planlægningen og i udførelsen af og ved hvad der skal til for at komme frem til et vellykket resultat.<br/><br/>
+
+            Og så er jeg et roligt, rart og et ordentligt menneske, der smiler ret meget 😀
             </h3>
           </div>
         </div>
