@@ -11,7 +11,7 @@ import Three from '../public/BH_6.jpg'
 
 import Four from '../public/BH_99.jpg'
 import Five from '../public/BH_88.jpg'
-import Six from '../public/BH_77.jpg'
+import Six from '../public/Stole_BentHansen.gif'
 
 import Seven from '../public/BH_33.jpg'
 import Eight from '../public/BH_55.jpg'

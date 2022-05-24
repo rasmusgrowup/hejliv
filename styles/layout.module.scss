@@ -67,7 +67,7 @@
 
   #four {
     flex: 1;
-    align-self: center;
+    align-self: flex-start;
     max-width: 20vw;
   }
 
@@ -99,18 +99,18 @@
   #nine {
     align-self: flex-start;
     flex: 1;
-    max-width: 22.5vw;
+    max-width: 27.5vw;
   }
 
   #ten {
-    align-self: center;
+    align-self: flex-end;
     flex: 1;
-    margin-right: 6rem;
+    margin-left: 6rem;
     max-width: 17.5vw;
   }
 
   #eleven {
-    align-self: center;
+    align-self: flex-end;
     flex: 1;
     max-width: 32.5vw;
   }
