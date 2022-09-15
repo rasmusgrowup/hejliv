@@ -46,6 +46,10 @@ export default function Navbar() {
               <Image src={Portrait} layout='fill' priority='true' quality='100' objectPosition='center' objectFit='cover'/>
             </div>
           </div>
+          <div className={scss.closeBtn} onClick={toggleContact}>
+            <span />
+            <span />
+          </div>
         </div>
         <div className={`${scss.bioDrawer} ${ openBio == true ? `${scss.opened}` : `${scss.closed}`}`}>
           <div className={scss.menu}>
@@ -59,6 +63,10 @@ export default function Navbar() {
 
             Og så er jeg et roligt, rart og et ordentligt menneske, der smiler ret meget 😀
             </h3>
+          </div>
+          <div className={scss.closeBtn} onClick={toggleBio}>
+            <span />
+            <span />
           </div>
         </div>
         <div className={`${scss.bottomBar} ${ openBio ? `${scss.bioOpened}` : '' }`}>
