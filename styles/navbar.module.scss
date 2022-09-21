@@ -193,7 +193,8 @@
   color: var(--main);
 }
 
-.closeBtn {
+.closeContact,
+.closeBio {
   height: 30px;
   position: absolute;
   right: 1rem;
@@ -214,4 +215,8 @@
   span:last-of-type {
     transform: rotate(-45deg);
   }
+}
+
+.closeContact span {
+  background-color: var(--main);
 }

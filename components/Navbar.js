@@ -46,7 +46,7 @@ export default function Navbar() {
               <Image src={Portrait} layout='fill' priority='true' quality='100' objectPosition='center' objectFit='cover'/>
             </div>
           </div>
-          <div className={scss.closeBtn} onClick={toggleContact}>
+          <div className={scss.closeContact} onClick={toggleContact}>
             <span />
             <span />
           </div>
@@ -64,7 +64,7 @@ export default function Navbar() {
             Og så er jeg et roligt, rart og et ordentligt menneske, der smiler ret meget 😀
             </h3>
           </div>
-          <div className={scss.closeBtn} onClick={toggleBio}>
+          <div className={scss.closeBio} onClick={toggleBio}>
             <span />
             <span />
           </div>
