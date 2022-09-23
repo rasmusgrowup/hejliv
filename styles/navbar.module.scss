@@ -53,20 +53,20 @@
   }
 
   h1 {
-    font-size: max(2vw, 22px);
+    font-size: max(1.6vw, 20px);
     font-weight: 500;
     margin: 0;
   }
 
   h2 {
-    font-size: max(2vw, 22px);
+    font-size: max(1.6vw, 20px);
     font-weight: 500;
     margin: 0;
   }
 
   a {
     display: block;
-    font-size: max(2vw, 22px);
+    font-size: max(1.6vw, 20px);
     font-weight: 500;
     margin-top: 0.25rem;
 
@@ -112,7 +112,7 @@
   max-width: 70%;
 
   @media (max-width: $ml) {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
 
@@ -219,4 +219,5 @@
 
 .closeContact span {
   background-color: var(--main);
+  cursor: pointer;
 }
