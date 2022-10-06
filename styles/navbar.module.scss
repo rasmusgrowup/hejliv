@@ -24,8 +24,9 @@
   background-color: var(--main);
 
   h3 {
-    font-size: 1.75em;
+    font-size: max(1.5vw, 20px);
     font-weight: normal;
+    line-height: 1.5;
 
     @media (max-width: $m) {
       font-size: 1em;
@@ -52,21 +53,17 @@
     justify-content: flex-start;
   }
 
-  h1 {
-    font-size: max(1.6vw, 20px);
-    font-weight: 500;
-    margin: 0;
-  }
-
+  h1,
   h2 {
-    font-size: max(1.6vw, 20px);
+    font-size: max(1.5vw, 20px);
     font-weight: 500;
+    line-height: 1.5;
     margin: 0;
   }
 
   a {
     display: block;
-    font-size: max(1.6vw, 20px);
+    font-size: max(1.5vw, 20px);
     font-weight: 500;
     margin-top: 0.25rem;
 
@@ -109,7 +106,7 @@
 }
 
 .bioDrawer .menu {
-  max-width: 70%;
+  max-width: 60%;
 
   @media (max-width: $ml) {
     max-width: 90%;

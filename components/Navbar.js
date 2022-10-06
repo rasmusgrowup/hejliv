@@ -5,7 +5,7 @@ import Image from "next/image"
 
 //Assets
 import scss from '../styles/navbar.module.scss'
-import Portrait from '../public/faux_portrait_2.jpg'
+import Portrait from '../public/Liv_Cramer.jpg'
 
 export default function Navbar() {
   const [openContact, setOpenContact] = useState(false);
