@@ -43,7 +43,7 @@ export default function Navbar() {
           </div>
           <div className={scss.image}>
             <div className={scss.inner}>
-              <Image src={Portrait} layout='fill' priority='true' quality='100' objectPosition='center' objectFit='cover'/>
+              <Image src={Portrait} layout='fill' priority='true' quality='100' objectPosition='bottom' objectFit='cover'/>
             </div>
           </div>
           <div className={scss.closeContact} onClick={toggleContact}>
